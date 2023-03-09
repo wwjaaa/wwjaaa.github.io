@@ -368,8 +368,8 @@
     
         <span class="article-date article-meta-item">
             <i class="fa-regular fa-wrench"></i>&nbsp;
-            <span class="pc">2023-03-09 15:12:08</span>
-            <span class="mobile">2023-03-09 15:12</span>
+            <span class="pc">2023-03-09 15:56:31</span>
+            <span class="mobile">2023-03-09 15:56</span>
             <span class="hover-info">更新</span>
         </span>
     
@@ -427,7 +427,7 @@
             
 
             <div class="article-content markdown-body">
-                <h2 id="写作"><a href="#写作" class="headerlink" title="写作"></a>写作</h2><h4 id="访问资源"><a href="#访问资源" class="headerlink" title="访问资源"></a>访问资源</h4><h5 id="全局"><a href="#全局" class="headerlink" title="全局"></a>全局</h5><p>当资源数量不多，比如只有少量图片时，可以在<code>source</code>文件夹下创建，比如<code>source/images</code>，然后通过类似<code>![](/images/image.jpg)</code>的方法访问。</p>
+                <h2 id="开始"><a href="#开始" class="headerlink" title="开始"></a>开始</h2><h4 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h4><h4 id="配置"><a href="#配置" class="headerlink" title="配置"></a>配置</h4><h4 id="启动"><a href="#启动" class="headerlink" title="启动"></a>启动</h4><h2 id="操作"><a href="#操作" class="headerlink" title="操作"></a>操作</h2><h4 id="访问资源"><a href="#访问资源" class="headerlink" title="访问资源"></a>访问资源</h4><h5 id="全局"><a href="#全局" class="headerlink" title="全局"></a>全局</h5><p>当资源数量不多，比如只有少量图片时，可以在<code>source</code>文件夹下创建，比如<code>source/images</code>，然后通过类似<code>![](/images/image.jpg)</code>的方法访问。</p>
 <p>注意，在<code>source/_posts</code>文件夹下的图片无法用类似的根目录相对路径读取。</p>
 <h5 id="文章资源文件夹"><a href="#文章资源文件夹" class="headerlink" title="文章资源文件夹"></a>文章资源文件夹</h5><p>想要更组织化地对资源进行管理，hexo也提供了一种方式，让资源分布在各个文章内容中。可以通过将 <code>config.yml</code>文件中的 <code>post_asset_folder</code> 选项设为 <code>true</code> 来打开。</p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">// _config.yml</span><br><span class="line">post_asset_folder: true</span><br></pre></td></tr></table></figure></div>
@@ -441,7 +441,7 @@
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">&#123;% asset_img example.jpg This is an example image %&#125;</span><br></pre></td></tr></table></figure></div>
 
 <p>通过这种方式，图片将会同时出现在文章和主页以及归档页中。</p>
-<h5 id="使用Markdown嵌入图片"><a href="#使用Markdown嵌入图片" class="headerlink" title="使用Markdown嵌入图片"></a>使用Markdown嵌入图片</h5><p><a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-renderer-marked">hexo-renderer-marked</a> 3.1.0 以后的版本可以无需使用插件便可嵌入图片，</p>
+<h5 id="使用Markdown嵌入图片"><a href="#使用Markdown嵌入图片" class="headerlink" title="使用Markdown嵌入图片"></a>使用Markdown嵌入图片</h5><p><a class="link"   target="_blank" rel="noopener" href="https://github.com/hexojs/hexo-renderer-marked" >hexo-renderer-marked <i class="fa-regular fa-arrow-up-right-from-square fa-sm"></i></a> 3.1.0 以后的版本可以无需使用插件便可嵌入图片，</p>
 <p>查看版本：</p>
 <div class="highlight-container" data-rel="Plaintext"><figure class="iseeu highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm list hexo-renderer-marked</span><br></pre></td></tr></table></figure></div>
 
@@ -526,7 +526,7 @@
     <div class="post-toc">
         <div class="toc-title">此页目录</div>
         <div class="page-title">hexo博客框架部署与应用（操作篇）</div>
-        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%86%99%E4%BD%9C"><span class="nav-text">写作</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AE%BF%E9%97%AE%E8%B5%84%E6%BA%90"><span class="nav-text">访问资源</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%85%A8%E5%B1%80"><span class="nav-text">全局</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E6%96%87%E7%AB%A0%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6%E5%A4%B9"><span class="nav-text">文章资源文件夹</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84%E5%BC%95%E7%94%A8%E7%9A%84%E6%A0%87%E7%AD%BE%E6%8F%92%E4%BB%B6"><span class="nav-text">相对路径引用的标签插件</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8Markdown%E5%B5%8C%E5%85%A5%E5%9B%BE%E7%89%87"><span class="nav-text">使用Markdown嵌入图片</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE"><span class="nav-text">参考文献</span></a></li></ol>
+        <ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%BC%80%E5%A7%8B"><span class="nav-text">开始</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%AE%89%E8%A3%85"><span class="nav-text">安装</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E9%85%8D%E7%BD%AE"><span class="nav-text">配置</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#%E5%90%AF%E5%8A%A8"><span class="nav-text">启动</span></a></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E6%93%8D%E4%BD%9C"><span class="nav-text">操作</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#%E8%AE%BF%E9%97%AE%E8%B5%84%E6%BA%90"><span class="nav-text">访问资源</span></a><ol class="nav-child"><li class="nav-item nav-level-5"><a class="nav-link" href="#%E5%85%A8%E5%B1%80"><span class="nav-text">全局</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E6%96%87%E7%AB%A0%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6%E5%A4%B9"><span class="nav-text">文章资源文件夹</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E7%9B%B8%E5%AF%B9%E8%B7%AF%E5%BE%84%E5%BC%95%E7%94%A8%E7%9A%84%E6%A0%87%E7%AD%BE%E6%8F%92%E4%BB%B6"><span class="nav-text">相对路径引用的标签插件</span></a></li><li class="nav-item nav-level-5"><a class="nav-link" href="#%E4%BD%BF%E7%94%A8Markdown%E5%B5%8C%E5%85%A5%E5%9B%BE%E7%89%87"><span class="nav-text">使用Markdown嵌入图片</span></a></li></ol></li></ol></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE"><span class="nav-text">参考文献</span></a></li></ol>
 
     </div>
 </div>
